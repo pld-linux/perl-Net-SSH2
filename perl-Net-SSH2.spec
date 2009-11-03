@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Net::SSH2
 Summary(zh_CN.UTF-8):	Net::SSH2 Perl 模块
 Name:		perl-Net-SSH2
 Version:	0.28
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -70,6 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Net/SSH2.pm
 %{perl_vendorarch}/Net/SSH2
 %dir %{perl_vendorarch}/auto/Net/SSH2
+%{perl_vendorarch}/auto/Net/SSH2/autosplit.ix
 %{perl_vendorarch}/auto/Net/SSH2/SSH2.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Net/SSH2/SSH2.so
 %{_mandir}/man3/*
