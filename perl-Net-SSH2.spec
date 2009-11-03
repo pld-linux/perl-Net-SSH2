@@ -66,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README TODO
+%doc Changes README TODO example/read.pl
 %{perl_vendorarch}/Net/SSH2.pm
 %{perl_vendorarch}/Net/SSH2
 %dir %{perl_vendorarch}/auto/Net/SSH2
