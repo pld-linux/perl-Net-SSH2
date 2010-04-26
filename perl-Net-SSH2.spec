@@ -28,7 +28,8 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+#Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/CPAN/authors/id/R/RK/RKITOVER/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	723ffa5e927d7559bb117ff0dbcfb4bd
 BuildRequires:	libssh2-devel
 BuildRequires:	openssl-devel
