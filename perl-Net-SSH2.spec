@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Net::SSH2 Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Net::SSH2
 Summary(zh_CN.UTF-8):	Net::SSH2 Perl 模块
 Name:		perl-Net-SSH2
-Version:	0.28
-Release:	3
+Version:	0.29
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5d6a9c4b2256c34819c0d6f3a0163066
+# Source0-md5:	723ffa5e927d7559bb117ff0dbcfb4bd
 BuildRequires:	libssh2-devel
 BuildRequires:	openssl-devel
 BuildRequires:	zlib-devel
