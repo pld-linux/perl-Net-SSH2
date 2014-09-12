@@ -71,6 +71,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Net/SSH2
 %dir %{perl_vendorarch}/auto/Net/SSH2
 %{perl_vendorarch}/auto/Net/SSH2/autosplit.ix
-%{perl_vendorarch}/auto/Net/SSH2/SSH2.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Net/SSH2/SSH2.so
 %{_mandir}/man3/*
