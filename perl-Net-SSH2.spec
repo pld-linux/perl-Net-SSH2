@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Net::SSH2
 Summary(zh_CN.UTF-8):	Net::SSH2 Perl 模块
 Name:		perl-Net-SSH2
 Version:	0.53
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
