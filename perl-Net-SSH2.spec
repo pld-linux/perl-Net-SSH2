@@ -23,15 +23,15 @@ Summary(sv.UTF-8):	Net::SSH2 Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Net::SSH2
 Summary(zh_CN.UTF-8):	Net::SSH2 Perl 模块
 Name:		perl-Net-SSH2
-Version:	0.56
-Release:	3
+Version:	0.63
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f0bc18b49ee9fe07273c639dd135a67f
+# Source0-md5:	bcac41475b9f8f20a791bcc410fee912
 URL:		http://search.cpan.org/dist/Net-SSH2/
-BuildRequires:	libssh2-devel >= 1.6.0
+BuildRequires:	libssh2-devel >= 1.7.0
 BuildRequires:	openssl-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -67,10 +67,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README TODO example/read.pl
+%doc Changes README example/read.pl
 %{perl_vendorarch}/Net/SSH2.pm
 %{perl_vendorarch}/Net/SSH2
 %dir %{perl_vendorarch}/auto/Net/SSH2
-%{perl_vendorarch}/auto/Net/SSH2/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Net/SSH2/SSH2.so
 %{_mandir}/man3/*
