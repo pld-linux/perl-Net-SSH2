@@ -8,13 +8,13 @@
 Summary:	Net::SSH2 Perl module - support for the SSH 2 protocol via libssh2
 Summary(pl.UTF-8):	Moduł Perla Net::SSH2 - obsługa protokołu SSH 2 poprzez libssh2
 Name:		perl-Net-SSH2
-Version:	0.63
-Release:	3
+Version:	0.69
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bcac41475b9f8f20a791bcc410fee912
+# Source0-md5:	94ed21d4557a6bbc3cb6bfd7c3479ef0
 URL:		http://search.cpan.org/dist/Net-SSH2/
 BuildRequires:	libssh2-devel >= 1.7.0
 BuildRequires:	openssl-devel
