@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	SSH2
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SSH2 Perl module - support for the SSH 2 protocol via libssh2
 Summary(pl.UTF-8):	Moduł Perla Net::SSH2 - obsługa protokołu SSH 2 poprzez libssh2
 Name:		perl-Net-SSH2
